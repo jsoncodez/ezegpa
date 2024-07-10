@@ -9,10 +9,7 @@ ezegpa::ezegpa(QWidget *parent)
     
     QDir databasePath;
     QString dbpath = databasePath.currentPath()+"/mydb.db";
-    
-    // QSqlDatabase mydb = QSqlDatabase::addDatabase("QSQLITE");
-    // mydb.setDatabaseName(dbpath);
-    // mydb.open();
+
     
     
     m_mydb = QSqlDatabase::addDatabase("QSQLITE");
@@ -74,13 +71,7 @@ void ezegpa::calcGPA() {
     QSqlQueryModel gradeQry;
     gradeQry.setQuery("select * from coursesTable");
     m_mydb.open();
-    // QSqlTableModel gradeModel;
-    
-    // gradeModel.setTable("courseTable");
-    
-    
-    // QSqlQueryModel gradeQry;
-    // gradeQry.setQuery("SELECT * FROM courseTable");
+
     
     for (int i = 0; i < gradeQry.rowCount(); i++) {
         currentCredit = gradeQry.record(i).value("Course_Credits").toInt();
@@ -123,8 +114,7 @@ void ezegpa::calcGPA() {
 }
 
 void ezegpa::addValues2( QString Course_Name, int Course_Credits, QString Course_Grade) {
-    // QSqlTableModel *modal = new QSqlTableModel();
-    // m_mydb.open();
+
     
     m_mydb.open();
     QSqlTableModel *modal = new QSqlTableModel;
@@ -146,14 +136,9 @@ void ezegpa::addValues2( QString Course_Name, int Course_Credits, QString Course
     
     
     QTableView *view = ui->tableView_classList;
-    // QTableView *view = new QTableView;
     view->setModel(modal);
-    // view->hideColumn(0); // don't show the ID
+
     view->show();
-    
-    // ui->tableView_classList->setModel(modal);
-    
-    
     
 }
 
