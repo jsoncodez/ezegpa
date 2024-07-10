@@ -1,0 +1,15 @@
+# ninja log v6
+13	551	7423318953891896	ezegpa_autogen/timestamp	b0a51667411f8cd
+13	551	7423318953891896	ezegpa_autogen/mocs_compilation.cpp	b0a51667411f8cd
+13	551	7423318953891896	G:/qtProjects/ezegpa/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/ezegpa_autogen/timestamp	b0a51667411f8cd
+13	551	7423318953891896	G:/qtProjects/ezegpa/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/ezegpa_autogen/mocs_compilation.cpp	b0a51667411f8cd
+3	19	7423317080941901	CMakeFiles/clean.additional	baedbe210acaa455
+19	24	7423317081101908	clean	577b940aee94fbd7
+20	804	7423321518566093	ezegpa_autogen/timestamp	b0a51667411f8cd
+20	804	7423321518566093	ezegpa_autogen/mocs_compilation.cpp	b0a51667411f8cd
+20	804	7423321518566093	G:/qtProjects/ezegpa/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/ezegpa_autogen/timestamp	b0a51667411f8cd
+20	804	7423321518566093	G:/qtProjects/ezegpa/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/ezegpa_autogen/mocs_compilation.cpp	b0a51667411f8cd
+809	3304	7423321519046093	CMakeFiles/ezegpa.dir/main.cpp.obj	b701967ce161911f
+807	3342	7423321519026087	CMakeFiles/ezegpa.dir/ezegpa_autogen/mocs_compilation.cpp.obj	40ea41cba0433a5a
+810	3562	7423321519066103	CMakeFiles/ezegpa.dir/ezegpa.cpp.obj	bc13d5a2d59be008
+3562	3752	7423321546586100	ezegpa.exe	29a0898ae061b855
